@@ -1,0 +1,18 @@
+[project]
+name = "alco-spider"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Archie",email = "mainpost.ge@gmail.com"}
+]
+readme = "README.md"
+requires-python = "^3.12"
+dependencies = [
+    "scrapy (>=2.14.1,<3.0.0)",
+    "loguru (>=0.7.3,<0.8.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
